@@ -3,6 +3,7 @@ body{
   font-family: "Montserrat";
   background-color: #FFFBDF;
   color: #334443;
+  font-size: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -138,6 +139,7 @@ h2{
   line-height: 1.5;
 }
 
+
 /* .card-header{
   background-color: #C6FFC1;
 } */
@@ -153,7 +155,51 @@ h2{
 }
 
 
+@media only screen and (max-width: 425px){
+  .navbar-brand{
+    font-size: 35px;
+  }
 
+  .title-heading{
+    font-size: 40px;
+  }
+
+  p{
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+
+  #testimonials{
+    margin-bottom: 150px;
+  }
+
+  .testimonial-image{
+    width: 30%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  .carousel-item{
+    margin-bottom: 30px;
+  }
+
+  #pricing{
+    padding: 3% 10%;
+  }
+
+  .card{
+    background-color: #f3efcd;
+  }
+
+  .card-body p{
+    font-size: 18px;
+  }
+
+  .section-heading{
+    font-weight: 500;
+    line-height: 1.5;
+  }
+}
 
 
 
